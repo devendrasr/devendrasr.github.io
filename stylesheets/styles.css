@@ -7,9 +7,19 @@ body {
   font-weight:300;
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+    width: 70%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
   color:#222;
-  margin:0 0 20px;
+  /*margin:0 0 20px;*/
 }
 
 p, ul, ol, table, pre, dl {
@@ -177,7 +187,7 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:100%;
   float:left;
   position:fixed;
   bottom:50px;
